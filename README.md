@@ -83,9 +83,8 @@ $ php spark serve
 
 ## Built With
 
--   PHP 7.4.16 ([XAMPP](https://www.apachefriends.org/download.html))
--   COMPOSER 2.1.3 ([COMPOSER](https://getcomposer.org/download/))
--   CodeIgniter 4.3.2 ([CodeIgniter](https://www.codeigniter.com/download))
+-   COMPOSER 2.5.4 ([COMPOSER](https://getcomposer.org/download/))
+-   CodeIgniter 4.3.3 ([CodeIgniter](https://www.codeigniter.com/download))
 
 ## Changelog
 
