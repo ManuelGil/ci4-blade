@@ -1,5 +1,6 @@
 # These are supported funding model platforms
 
 github: [ManuelGil]
-ko_fi:  ManuelGil
-custom: ["https://www.buymeacoffee.com/ManuelGil", "https://paypal.me/ManuelFGil"]
+ko_fi: ManuelGil
+custom:
+  ["https://www.buymeacoffee.com/ManuelGil", "https://paypal.me/ManuelFGil"]

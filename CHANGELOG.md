@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2023-05-27
+
+### Changed
+
+-   Update version 4.3.5 of CodeIgniter.
+
 ## [1.3.0] - 2023-04-27
 
 ### Changed
@@ -40,7 +46,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   Rename welcome_message.php to welcome_message.blade.php.
 -   Convert welcome_message.blade.php to child of layout.blade.php.
 
-[unreleased]: https://github.com/ManuelGil/ci4-blade/compare/v1.3.0...HEAD
+[unreleased]: https://github.com/ManuelGil/ci4-blade/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/ManuelGil/ci4-blade/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/ManuelGil/ci4-blade/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/ManuelGil/ci4-blade/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/ManuelGil/ci4-blade/compare/v1.0.0...v1.1.0
