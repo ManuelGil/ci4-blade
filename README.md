@@ -1,20 +1,20 @@
 # Codeigniter 4 with Template Engine
 
-[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.4.0)
-[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.4.0)
+[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.5.0)
+[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.5.0)
 [![GitHub license](https://img.shields.io/github/license/ManuelGil/ci4-blade)](./LICENSE)
 
 Boilerplate with CodeIgniter 4 and BladeOne Template Engine.
 
 ## Requirements
 
--   [PHP 7.4](https://www.php.net/releases/7_4_0.php) or later
-    - [intl](http://php.net/manual/en/intl.requirements.php)
-    - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-    - json (enabled by default - don't turn it off)
-    - [mbstring](http://php.net/manual/en/mbstring.installation.php)
-    - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-    - xml (enabled by default - don't turn it off)
+- [PHP 7.4](https://www.php.net/releases/7_4_0.php) or later
+  - [intl](http://php.net/manual/en/intl.requirements.php)
+  - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+  - json (enabled by default - don't turn it off)
+  - [mbstring](http://php.net/manual/en/mbstring.installation.php)
+  - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
+  - xml (enabled by default - don't turn it off)
 
 ## Installation
 
@@ -32,13 +32,13 @@ You can install this wrapper via composer with the following commands:
 
 #### _Development_
 
--   Required a composer installation.
+- Required a composer installation.
 
 ```bash
 $ composer install
 ```
 
--   Downloading [composer.phar](https://getcomposer.org/download/).
+- Downloading [composer.phar](https://getcomposer.org/download/).
 
 ```bash
 $ sudo php composer.phar install
@@ -46,13 +46,13 @@ $ sudo php composer.phar install
 
 #### _Production_
 
--   Required a composer installation.
+- Required a composer installation.
 
 ```bash
 $ composer install --no-dev --optimize-autoloader
 ```
 
--   Downloading [composer.phar](https://getcomposer.org/download/).
+- Downloading [composer.phar](https://getcomposer.org/download/).
 
 ```bash
 $ sudo php composer.phar install --no-dev --optimize-autoloader
@@ -60,22 +60,21 @@ $ sudo php composer.phar install --no-dev --optimize-autoloader
 
 ## Configure the project
 
--   Copy the [`env`](./env)
-    file and call it `.env`.
+- Copy the [`env`](./env) file and call it `.env`.
 
 ```bash
 $ cp env .env
 ```
 
--   Edit the environment variables in the .env file as you need.
+- Edit the environment variables in the .env file as you need.
 
--   Make www-data the owner to `writable` folder.
+- Make www-data the owner to `writable` folder.
 
 ```bash
 $ sudo chown www-data: writable/
 ```
 
--   Start project
+- Start project
 
 ```bash
 $ php spark serve
@@ -83,8 +82,8 @@ $ php spark serve
 
 ## Built With
 
--   COMPOSER 2.5.4 ([COMPOSER](https://getcomposer.org/download/))
--   CodeIgniter 4.3.5 ([CodeIgniter](https://www.codeigniter.com/download))
+- COMPOSER 2.5.4 ([COMPOSER](https://getcomposer.org/download/))
+- CodeIgniter 4.3.6 ([CodeIgniter](https://www.codeigniter.com/download))
 
 ## Changelog
 
@@ -100,7 +99,7 @@ In order to ensure that the alternate admin community is welcoming to all, pleas
 
 ## Authors
 
--   **Manuel Gil** - _Owner_ - [ManuelGil](https://github.com/ManuelGil)
+- **Manuel Gil** - _Owner_ - [ManuelGil](https://github.com/ManuelGil)
 
 See also the list of [contributors](https://github.com/ManuelGil/ci4-blade/contributors)
 who participated in this project.
