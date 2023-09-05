@@ -6,7 +6,7 @@ use CodeIgniter\CodeIgniter;
 
 class Home extends BaseController
 {
-    public function index()
+    public function index(): string
     {
         // Get global variables
         $data = [
@@ -18,7 +18,7 @@ class Home extends BaseController
         return $this->render('welcome_message', $data);
     }
 
-    public function example()
+    public function example(): string
     {
         $users = [
             [

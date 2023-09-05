@@ -1,7 +1,7 @@
 # Codeigniter 4 with Template Engine
 
-[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.7.0)
-[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.7.0)
+[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.8.0)
+[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.8.0)
 [![GitHub license](https://img.shields.io/github/license/ManuelGil/ci4-blade)](./LICENSE)
 
 Boilerplate with CodeIgniter 4 and BladeOne Template Engine.
@@ -83,7 +83,7 @@ $ php spark serve
 ## Built With
 
 - COMPOSER 2.5.4 ([COMPOSER](https://getcomposer.org/download/))
-- CodeIgniter 4.4.0 ([CodeIgniter](https://www.codeigniter.com/download))
+- CodeIgniter 4.4.1 ([CodeIgniter](https://www.codeigniter.com/download))
 
 ## Changelog
 
