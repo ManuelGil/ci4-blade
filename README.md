@@ -1,14 +1,14 @@
 # Codeigniter 4 with Template Engine
 
-[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.8.0)
-[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.8.0)
+[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.9.0)
+[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.9.0)
 [![GitHub license](https://img.shields.io/github/license/ManuelGil/ci4-blade)](./LICENSE)
 
 Boilerplate with CodeIgniter 4 and BladeOne Template Engine.
 
 ## Requirements
 
-- [PHP 7.4](https://www.php.net/releases/7_4_0.php) or later
+- [PHP 8.1](https://www.php.net/releases/8_1_0.php) or later
   - [intl](http://php.net/manual/en/intl.requirements.php)
   - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
   - json (enabled by default - don't turn it off)
@@ -28,20 +28,20 @@ Boilerplate with CodeIgniter 4 and BladeOne Template Engine.
 
 ### Install the project
 
-You can install this wrapper via composer with the following commands:
+You can install this project via composer with the following commands:
 
 #### _Development_
 
 - Required a composer installation.
 
 ```bash
-$ composer install
+composer install
 ```
 
 - Downloading [composer.phar](https://getcomposer.org/download/).
 
 ```bash
-$ sudo php composer.phar install
+sudo php composer.phar install
 ```
 
 #### _Production_
@@ -49,13 +49,13 @@ $ sudo php composer.phar install
 - Required a composer installation.
 
 ```bash
-$ composer install --no-dev --optimize-autoloader
+composer install --no-dev --optimize-autoloader
 ```
 
 - Downloading [composer.phar](https://getcomposer.org/download/).
 
 ```bash
-$ sudo php composer.phar install --no-dev --optimize-autoloader
+sudo php composer.phar install --no-dev --optimize-autoloader
 ```
 
 ## Configure the project
@@ -63,7 +63,7 @@ $ sudo php composer.phar install --no-dev --optimize-autoloader
 - Copy the [`env`](./env) file and call it `.env`.
 
 ```bash
-$ cp env .env
+cp env .env
 ```
 
 - Edit the environment variables in the .env file as you need.
@@ -71,19 +71,18 @@ $ cp env .env
 - Make www-data the owner to `writable` folder.
 
 ```bash
-$ sudo chown www-data: writable/
+sudo chown -R www-data: writable/
 ```
 
 - Start project
 
 ```bash
-$ php spark serve
+php spark serve
 ```
 
 ## Built With
 
-- COMPOSER 2.5.4 ([COMPOSER](https://getcomposer.org/download/))
-- CodeIgniter 4.4.1 ([CodeIgniter](https://www.codeigniter.com/download))
+- CodeIgniter 4.4.2 ([CodeIgniter](https://www.codeigniter.com/download))
 
 ## Changelog
 
@@ -106,5 +105,4 @@ who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the
-[MIT](https://opensource.org/licenses/MIT) for details.
+This project is licensed under the MIT License - see the [MIT](https://opensource.org/licenses/MIT) for details.

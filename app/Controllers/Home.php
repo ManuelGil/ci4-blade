@@ -4,8 +4,17 @@ namespace App\Controllers;
 
 use CodeIgniter\CodeIgniter;
 
+/**
+ * Home class
+ */
 class Home extends BaseController
 {
+
+    /**
+     * index function
+     *
+     * @return string
+     */
     public function index(): string
     {
         // Get global variables
@@ -18,6 +27,11 @@ class Home extends BaseController
         return $this->render('welcome_message', $data);
     }
 
+    /**
+     * example function
+     *
+     * @return string
+     */
     public function example(): string
     {
         $users = [

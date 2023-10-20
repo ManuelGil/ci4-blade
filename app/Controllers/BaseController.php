@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
+use CodeIgniter\Exceptions\PageNotFoundException;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\RequestInterface;
@@ -61,7 +62,7 @@ abstract class BaseController extends Controller
         // E.g.: $this->session = \Config\Services::session();
 
         $views = APPPATH . 'Views';
-        $cache = WRITEPATH . 'cache' . DIRECTORY_SEPARATOR . 'blade';
+        $cache = WRITEPATH . 'cache';
 
         if (ENVIRONMENT === 'production') {
             $this->templateEngine = new BladeOne(
@@ -97,17 +98,12 @@ abstract class BaseController extends Controller
             if (ENVIRONMENT === 'production') {
                 // Save error in file log
                 log_message('error', $e->getTraceAsString());
-            } else {
-                // Show error in the current page
-                header_remove();
-                http_response_code(500);
-                header('HTTP/1.1 500 Internal Server Error');
-                echo '<pre>' . $e->getTraceAsString() . '</pre>';
-                echo PHP_EOL;
-                echo $e->getMessage();
+
+                throw PageNotFoundException::forPageNotFound();
             }
 
-            return '';
+            // Show error in the current page
+            return '<pre>' . $e->getTraceAsString() . '</pre>' . PHP_EOL . $e->getMessage();
         }
     }
 }
