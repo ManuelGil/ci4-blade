@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "codeigniter4/framework",
-            "version": "v4.4.2",
+            "version": "v4.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "c84d3223de9320d58a770601aa427e2c1ae845d9"
+                "reference": "a0339851ed3fa122a4a0e7930c62a1463e0cb257"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/c84d3223de9320d58a770601aa427e2c1ae845d9",
-                "reference": "c84d3223de9320d58a770601aa427e2c1ae845d9",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/a0339851ed3fa122a4a0e7930c62a1463e0cb257",
+                "reference": "a0339851ed3fa122a4a0e7930c62a1463e0cb257",
                 "shasum": ""
             },
             "require": {
@@ -78,20 +78,20 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/CodeIgniter4"
             },
-            "time": "2023-10-19T21:36:24+00:00"
+            "time": "2023-10-26T22:45:01+00:00"
         },
         {
             "name": "codeigniter4/translations",
-            "version": "v4.4.1",
+            "version": "v4.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/translations.git",
-                "reference": "01a109ed029c23ec5f4b2385b993f4b0500d6b72"
+                "reference": "dae92ca24b8bd67d6e63fd17e7107e2560f1a290"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/01a109ed029c23ec5f4b2385b993f4b0500d6b72",
-                "reference": "01a109ed029c23ec5f4b2385b993f4b0500d6b72",
+                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/dae92ca24b8bd67d6e63fd17e7107e2560f1a290",
+                "reference": "dae92ca24b8bd67d6e63fd17e7107e2560f1a290",
                 "shasum": ""
             },
             "require": {
@@ -129,7 +129,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/translations"
             },
-            "time": "2023-09-14T03:32:56+00:00"
+            "time": "2023-10-27T03:08:50+00:00"
         },
         {
             "name": "eftec/bladeone",
