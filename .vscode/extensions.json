@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "imgildev.vscode-codeigniter4-snippets",
+        "imgildev.vscode-codeigniter4-spark",
+        "shufo.vscode-blade-formatter",
+        "onecentlin.laravel-blade"
+    ]
+}
