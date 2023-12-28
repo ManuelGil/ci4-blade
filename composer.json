@@ -1,11 +1,27 @@
 {
     "name": "manuelgil/ci4-blade",
-    "description": "Boilerplate with CodeIgniter 4 and BladeOne Template Engine.",
+    "description": "🔥 Boilerplate: Blade Template Engine for CodeIgniter 4 framework (with BladeOne)",
     "license": "MIT",
     "type": "project",
     "keywords": [
+        "blade template engine",
+        "blade-template-engine",
+        "blade",
+        "bladeone template engine",
+        "bladeone-template-engine",
+        "bladeone",
+        "ci-4",
+        "ci",
+        "ci4",
+        "codeigniter 4",
+        "codeigniter-4",
+        "codeigniter",
         "codeigniter4",
-        "blade template engine"
+        "framework",
+        "mvc",
+        "php",
+        "template engine",
+        "template"
     ],
     "authors": [
         {

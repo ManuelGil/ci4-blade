@@ -1,10 +1,10 @@
-# Codeigniter 4 with Template Engine
+# Codeigniter 4 with Blade Template Engine
 
-[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.11.0)
-[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.11.0)
+[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.11.1)
+[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.11.1)
 [![GitHub license](https://img.shields.io/github/license/ManuelGil/ci4-blade)](./LICENSE)
 
-Boilerplate with CodeIgniter 4 and BladeOne Template Engine.
+🔥 Boilerplate: Blade Template Engine for CodeIgniter 4 framework (with BladeOne). This project is a simple and fast way to start a new project with CodeIgniter 4 and Blade Template Engine.
 
 ## Requirements
 
