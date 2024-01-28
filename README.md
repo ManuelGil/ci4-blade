@@ -1,10 +1,13 @@
 # Codeigniter 4 with Blade Template Engine
 
-[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.11.1)
-[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-blade)](https://github.com/ManuelGil/ci4-blade/releases/tag/v1.11.1)
-[![GitHub license](https://img.shields.io/github/license/ManuelGil/ci4-blade)](./LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/manuelgil/ci4-blade?style=for-the-badge&logo=packagist)](https://packagist.org/packages/manuelgil/ci4-blade)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/manuelgil/ci4-blade?style=for-the-badge&logo=packagist)](https://packagist.org/packages/manuelgil/ci4-blade)
+[![Packagist Stars](https://img.shields.io/packagist/stars/manuelgil/ci4-blade?style=for-the-badge&logo=github)](https://github.com/ManuelGil/ci4-blade)
+[![Packagist License](https://img.shields.io/packagist/l/manuelgil/ci4-blade?style=for-the-badge&logo=github)](https://github.com/ManuelGil/ci4-blade/blob/main/LICENSE)
 
 🔥 Boilerplate: Blade Template Engine for CodeIgniter 4 framework (with BladeOne). This project is a simple and fast way to start a new project with CodeIgniter 4 and Blade Template Engine.
+
+This project is based on the [Codeigniter 4 with Template Engine](https://github.com/ManuelGil/ci4-template-engine).
 
 ## Requirements
 
@@ -82,7 +85,7 @@ php spark serve
 
 ## Built With
 
-- CodeIgniter 4.4.4 ([CodeIgniter](https://www.codeigniter.com/download))
+- CodeIgniter 4.4.5 ([CodeIgniter](https://www.codeigniter.com/download))
 
 ## Changelog
 
