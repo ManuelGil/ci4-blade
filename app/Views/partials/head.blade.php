@@ -173,6 +173,12 @@
         padding-top: 0;
     }
 
+    .svg-stroke {
+        fill: none;
+        stroke: #000;
+        stroke-width: 32px;
+    }
+
     footer {
         background-color: rgba(221, 72, 20, .8);
         text-align: center;
