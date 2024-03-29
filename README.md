@@ -85,7 +85,7 @@ php spark serve
 
 ## Built With
 
-- CodeIgniter 4.4.6 ([CodeIgniter](https://www.codeigniter.com/download))
+- CodeIgniter 4.4.7 ([CodeIgniter](https://www.codeigniter.com/download))
 
 ## Changelog
 
