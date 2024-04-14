@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "codeigniter4/framework",
-            "version": "v4.5.0",
+            "version": "v4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "365a46c12ab29b87f4b9a07fe54cb0a00a6e5301"
+                "reference": "9b2cd730db29d14ac6e760fb15c4bcac15184ec4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/365a46c12ab29b87f4b9a07fe54cb0a00a6e5301",
-                "reference": "365a46c12ab29b87f4b9a07fe54cb0a00a6e5301",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/9b2cd730db29d14ac6e760fb15c4bcac15184ec4",
+                "reference": "9b2cd730db29d14ac6e760fb15c4bcac15184ec4",
                 "shasum": ""
             },
             "require": {
@@ -78,7 +78,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/CodeIgniter4"
             },
-            "time": "2024-04-07T10:06:30+00:00"
+            "time": "2024-04-14T04:18:29+00:00"
         },
         {
             "name": "codeigniter4/translations",
@@ -976,16 +976,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.17",
+            "version": "10.5.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c1f736a473d21957ead7e94fcc029f571895abf5"
+                "reference": "835df1709ac6c968ba34bf23f3c30e5d5a266de8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c1f736a473d21957ead7e94fcc029f571895abf5",
-                "reference": "c1f736a473d21957ead7e94fcc029f571895abf5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/835df1709ac6c968ba34bf23f3c30e5d5a266de8",
+                "reference": "835df1709ac6c968ba34bf23f3c30e5d5a266de8",
                 "shasum": ""
             },
             "require": {
@@ -1057,7 +1057,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.17"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.18"
             },
             "funding": [
                 {
@@ -1073,7 +1073,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-05T04:39:01+00:00"
+            "time": "2024-04-14T07:05:31+00:00"
         },
         {
             "name": "psr/container",
